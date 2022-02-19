@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMW</title>
+
+        <meta httpequiv="x-ua-compatible" content="ie=edge; chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0">
+
+        <link rel="stylesheet" href="source/common_style.css" type="text/css"> 
+        <link rel="stylesheet" href="source/error.css" type="text/css"> 
+    </head>
+
+    <body>
+        <div class = "all">
+            <div class = "header">
+                <div class="header-left header-content">
+                    <img src="source/index.png" alt="logo">
+                    <h2 class="header-title">BMW</h2>
+                </div>
+                <div class="header-right header-content">
+                    <button id="homeButton" onclick="window.location.href='home.html'">Home</button>
+                    <button id="myButton" onclick="window.location.href='index.html'">Log out</button>
+                </div>
+            </div>
+            <div class = "body">
+                <div class="body-content">
+                    <div class="body-error">
+                        <h2>Sold Out</h2>
+                        <br>
+
+                        <label for="cars">Choose another car model:</label>
+                        <select name="cars" id="cars">
+                            <option value="volvo">BMW X5</option>
+                            <option value="saab">BMW X3</option>
+                            <option value="opel">BMW X1</option>
+                            <option value="audi">BMW M4</option>
+                        </select>
+                        <br><br>
+
+                         <p>Please select your preference:</p>
+                         <input type="radio" id="html" name="fav_language" value="HTML">
+                         <label for="html">Petrol</label><br>
+                         <input type="radio" id="css" name="fav_language" value="CSS">
+                         <label for="css">Diesel</label><br>
+                         <br><br>
+
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Get notification via call if available.</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> Get notification via email if available.</label><br><br>
+                        <br><br>
+            
+                      
+                        <button id="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class = "footer">
+                <p>BMW © 1998</p>
+            </div>
+        </div>
+    </body>
+</html>
