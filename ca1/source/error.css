@@ -1,0 +1,15 @@
+.body-error button {
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.body-error button:hover{
+    background-color: #35373b;
+    color: white;
+}
+
+.body-error {
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+}

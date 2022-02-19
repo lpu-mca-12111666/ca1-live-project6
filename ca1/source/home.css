@@ -1,0 +1,23 @@
+.body-content {
+    display: flex;
+}
+
+.content{
+    margin: auto;
+    padding: 50px 15px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+}
+
+.option a {
+    border: 1px solid #35373b;
+    background-color: #35373b;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+}
