@@ -1,0 +1,31 @@
+.body-content{
+    width:fit-content;
+    margin: 15% auto;
+}
+
+input {
+    padding: 5px 15px;
+}
+
+.body-content button{
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.body-content button:hover{
+    background-color: #35373b;
+    color: white;
+}
+
+fieldset {
+    border-radius: 5px;
+    background-color:aliceblue;
+}
+
+@media only screen and (max-height: 600px) {
+    .body-content{
+        width:fit-content;
+        margin: auto auto;
+        padding: 25px 0px;
+    }
+}
