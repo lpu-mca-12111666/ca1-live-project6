@@ -1,0 +1,47 @@
+*{
+	font-family: Fjalla One;
+  margin: 0;
+	border: 0;
+	padding: 0;
+	color: white;
+}
+
+
+body{
+	background-color: #000000;
+}
+
+
+.ptable table{
+	margin: 30px auto;
+	border-collapse: collapse;
+	background-color: maroon;
+}
+
+.ptable{
+	margin: 0px 0% 30px 0%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+.headin{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	margin: 30px;
+	display: block;
+}
+
+.wpos{
+	text-align: center;
+}
+
+.wpos:hover{
+	background-color: #77ff21;
+}
+
+.wpos:hover td{
+	color: #000000;
+}
