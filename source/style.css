@@ -1,3 +1,21 @@
-body{
-  background-color: yellow;
+
+
+.body-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 15% 15px;
+    
+}
+
+.content-box {
+    border: 1px solid ;
+  padding:  0em 1em;
+  border-radius: 6px;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.box-link a{
+    text-decoration: none;
+    color: black;
 }
