@@ -26,6 +26,12 @@
     text-decoration: none;
     display: block;
   }
+
+.jumbotron {
+margin-top: 10%;
+margin-bottom: 10%;
+align-content: center;
+}
   
   .dropdown-content a:hover {background-color: #ddd;}
   
