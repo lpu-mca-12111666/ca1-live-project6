@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+  border: 2px solid rgb(160, 216, 114);
+  border-radius: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  padding: 5%;
+  
+;
+}
+
+.row {
+    margin: 20px 10px 30px 40px;
+    padding: 2px 2px 2px;
+    width: 75%;
+
+ }
+
+.row input {
+    padding: 0 0px 10px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black
+}
+.row-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+ div {
+     width: 100%;
+    
+ }
+
+ h1 {
+    font-family: oswald;
+    color: azure;
+ }
+
+ body {
+    
+    background-image: url('pic.jpg');
+
+ }
+
+
+ .header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+.header__navi__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__navi a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    text-align: center;
+    
+  }
+
+
+
+
+
+
+
